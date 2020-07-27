@@ -12,6 +12,7 @@ let maskimgsrc = "maskimg.png";
 let btn = document.getElementsByClassName("start_button");
 btn = document.querySelector('button');
 
+webcam = document.getElementsByClassName("webcam");
 // Load the image model and setup the webcam
 async function init() {
     //우리가 만든 모델을 불러온다
